@@ -1,0 +1,12 @@
+d1=read.csv("DS.csv",header = TRUE)
+hist=as.numeric(d1$Symptoms)
+View(hist)
+d1=data.frame(d1,hist)
+any(is.na(d1))
+dili=as.numeric(d1$Disease)
+d1=data.frame(d1,dili)
+View(d1)
+k=kmeans(d1[,c(3,4)],78)
+k
+k$cluster=as.factor(k$cluster)
+ggplot(d1,aes(hist,dili,color=k$cluster))+geom_point()

@@ -1,0 +1,81 @@
+rownum,Disease,Medication,Herb
+1,Acidity,"  Ayucid , Avipatrikar Churna, Lavanbhaskar Churna, Amla Capsule ","Yastimadhu ,Amla,Lavanga,Black Pepper"
+2,Acne,"   Neem Guard Capsule , Surakta Syrup, Neem Guard Soap, Mahamanjisthadyarishta","Cinnamom, Sandalwood, Turmeric for local application,Neem,Giloy"
+3,Alzeimer's disease,"Stress Guard Capsule, Nightzz Capsule , Tagar Powder, Ashwagandha capsule, Saraswat Churna",Nil
+4,Anaemia,"  Lauh Bhasma,Lohasava, Dhatri Lauh  ","Amla,Punarnava,Aloe vera"
+5,Anorexia,"Agnitundi Bati,Kshudhakari Bati, Amalki Rasayan     ","Lime,Ginger,Garlic,Apple,Orange"
+6,Anxiety,"Anti Stress Massage Oil, Stress Guard, Shankhapushpi Sharbat    ",Nil
+7,Backache," Mahayograj Guggulu, Vatgajankush Ras,  Rhumartho Gold, Rhuma Oil ","Lahsun (Garlic), Lemon, Vitamin C, Potato"
+8,Baldness,"Arogyavardhini Plus , Mahabhringraj Taila ",Nil
+9,Bleeding Gum,"Red Tooth Paste, Red Tooth Powder, Irimedadi Taila",Nil
+10,Boils,"Neem Guard , Surakta Syrup, Arogyavardhini Bati ","Garlic, Onion,Betel leaves,Cumin seeds,Neem leaves,Turmeric"
+11,Bronchitis,"Vasavaleha, Kantakaryavaleha, Kankasava ","Tulsi, Vasak"
+12,Cervical Spondylosis,"Yograj Guggulu, Rumartho Gold Capsule, Mahanarayan oil ,Rhuma Oil ",Nil
+13,Chicken Pox,Swarnamakshika Bhasma  ,Nil
+14,Colitis," Amoebica Tablet,Isabbael (H), Kutjarishta","Banana,Tender coconut,Rice,Wheat grass"
+15,Common cold and cough,"Chyawanprash Special , Kasamrit (Herbal) , Laxmivilas Ras (Kas), Prawal Pishti ","Vasaka,Garlic,Ginger,Basil"
+16,Conjuctivitis," Saptamrit lauh, Maha Tripha ghrita, Arogyavardhini bati","Guduchi (Tinospora cordifolia),Amla (Emblica Officinalis),Haritaki (Terminalia chebula), Baheda, (Terminalia Belerica), Nirmali (Strychnos potatorum)"
+17,Constipation,"  Kabjahar  ,Triphala churna","Hartaki (Terminalia chebula),Isabgole (Plantago ovata),Sennaleaves (Cassia angustifolia), Nisoth (Ipomoea turpethum)"
+18,Cramps,"Mahanarayan oil, Arth plus,  Rumarhto Gold",Nil
+19,Cystitis,"Chandanasava,Chandanbala laxadi oil,Chandraprabha Bati","Cucumber juice,Radish Leaves, Spinach, Sandalwood Oil"
+20,Dandruff,"Amla Capsules, Guduchyadi Taila (Oil)","Fenugreek seeds,Lime,Green Gram Powder,Snake gourd"
+21,Depression,"Stress Guard, Brahmi Bati (S.yu), Ashwagandharishta, Sarswatarishta","Apple,Cashewnut,Asparagus,Cardamom,Rose"
+22,Diabetus Mellitus," Diabet Guard, Madhumehari Granules, Karela Capsules ","Neem (Azadirachta indica),Gurmar Leaves (Gymnema sylvestrae),Karela (Momordica charantia), Nayantatra (Vinca rosa)"
+23,Dysentery," Isabbael (H) , Lashunadi Bati ,Bhuwaneshar Ras ","Babul,Arjuna,Bael Fruit,Cuminseed"
+24,Dyspepsia,"  Arogyavardhini Bati,  Liverole Strong","Lemon,Grapes,Carrot,Fenugreek"
+25,Eczema,"Neem Guard, Surakta Syrup, Raktasodhak Bati, Rasamanikaya ","Babul,Butea,Linseed,Madhuca"
+26,Enlarge prostate,"Prostaid, Gokshuradi Guggulu, Chandraprabha Bati , Shilajeet Tablet",Nil
+27,Eosinophilia,"Chyawanprash special, Sitopaladi Churna","Kapur Kachri,Turmeric ( Curcuma longa), Mulethi ( Licorice), Bharangi ( Clerodendron serratum), Pippali ( Piper longum)"
+28,Epilepsy,"Brahmi Bati(S.M.Yu) , Sarswat Churna ,Brahmi Ghrita","Brahmi (Bacopa monniera),Shankha Pushpi (Evolvulus alsinoides),Malkagni (Celastrus paniculatus), Jatamansi (Nardastachys jatamansi)"
+29,Fatigue,"Kesari Kalp Royale , Musli pak, Drakshasava(Special)","Vitamin B,Dates,Lemon balm"
+30,Female infertility,"Supari Pak, Leuconil ,Shatavari Capsule, Sundari Sakhi","Supari (Betel Nut), Shatavari (Asparagus racemosus ), Ashwagandha (Withania somnifera ), Gotu Kola (Centella Asiatica),  Ashoka (Saraca Indica),  Lodhra (Symplocos racemosa), Ghrit Kumari (Aloe Vera ) "
+31,Fever,"Mahalaxmivilas Ras Vrihat(S.Yu) , Anand Bhairav Ras(Jwar)","Holy Basil,Fenugreek,Saffron,Raisins,Apricot,Grapefruit,Orange,Bloodworm"
+32,Flatulence," Gaisantak Bati ,  Hingwastak Churna, Ajwain Ark","Ginger (Zingiber officinalae), Hing (Asfoetida)"
+33,Flu,"Immune Guard capsules, Laxhmivilas Ras 
+","Holy Basil,Turmeric,Saffron,Cinnamon,Clove,Black pepper"
+34,Gas,"Gas Guard, Gaisantak Bati, Ajwain Ark,Hingwastak Churna","Ajwain (Carum copticum), Amla (Phyllanthus emblica), Adrak (Zingiber officinale), Lavanga (Syzygium aromaticum - Clove), Black pepper (Piper nigrum) "
+35,Gastritis,"Gaisantak Bati , Liveole strong,  Ajwain Ark , Kabz Care","Coconut,Rice,Merigold,Potato"
+36,General debility,"Chyawanprash Special ,Amlaki Rasayan, Kesri Kalp Royal, Stress Guard","Amlaki (Emblica officinalis),Satawari (Asparagus racemosus),Ashwagandha (Withania somnifera),Haritaki (Terminalia Chebula)"
+37,Goitre,"Kanchanar Guggulu , Arogyavardhini Bati ",Nil
+38,Gonorrhoea, Ameer Ras      ,Nil
+39,Gout,"Kaishore Guggulu , Panchatikta ghrita, Guduchyadi Taila ,Balarista","Lahsun (Garlic),Guggul (Commiphora mukul),Sallaki (Boswelia sarrata)"
+40,Graying of hair," Mahabhringaraj oil, Bhringarajsava, Amalaki Rasayan , Lauha Rasayan",Nil
+41,Haemoptysis,"Basant Malti Ras, Prawal Pishti, Kasamrit Herbal ",Nil
+42,HighBP,"Sarpagandhaghan Bati,Sarpagandha Tablet ,Stress Guard ","Sarpagandha (Rauwolfia serpentina), Jatamansi ( Nardostachys jatamansi)"
+43,Hypercholesteramia,"Arjunaristha, Guggulu Capsule ","Garlic (Allium Sativum) , Gugglu (commiphora mukul)"
+44,Immunity disorders," Immun Guard ,Neem Guard ,Ashwagandhadi churna, Amlaki Rasayan, Stress Guard                                    ","Giloy (Tinospora cordifolia), Neem (Azadirachta indica),Amalaki (phyllanthis Embelica), Aswagandha (Withania somnifera)"
+45,Indigestion,"Aquagest ,Ayucid, Lavan Bhaskar Churna, Ajwain Ark","Hing (Asafoetida),Ginger (Zingiber officinale),Lemon juice with rock salt"
+46,Influenza,"Tribhuvankirti Ras, Mahasudarshan Churna, Laxmivilas Ras(Nardiya)                            ","Garlic,Turmeric,Ginger,Basil"
+47,Insomnia,"Nightzz, Stress Guard, Brahmi Bati, Ashwagandharistha","Brahmi (Bacopa monneri),Jatamansi (Nardostachys jatamansi),Ashwagandha (Withania somnifera),Sarpagandha (Rauwolfia serpentina)"
+48,Intestinal worms,"Krimighatini Bati,  Birangasava ","Vasaka,Coconut,Garlic,Papaya"
+49,Jaundice / Hepatitis,"Liverol Syrup, Bhumiamla Capsule ,Kumariasava    ","Ghritkumari (Aloe vera),Kakmachi (Solanum nigrum),Jaundice Berry (Berberis vultaris), Bhumiamla (Phyllanthus niruri)"
+50,Join & Muscle Pain,"Arth Plus, Rumartho Gold, Mahayograj Guggulu",NIL
+51,Kidney stone,"Gokshuradi Guggulu ,Varun capsule,  Shilajeet tablet  ","Gokshura powder,Varuna powder,Shilajit powder"
+52,Leucoderma,"Neem Guard, Raktasodhak Bati, Somraji Oil                   ","Bakuchi,Neem,Manjistha,Haridra , Turmeric"
+53,Leucorrhea,"Lukonil Tablet, Pushyanug Churna, Patrangasav    ","Ashwagandha,Vidari,Shatavari"
+54,Liver Disorder,"Livgood Capsule, Punarnavadi Mandoor, Kumariasava         ","Bhumiamla (Phyllanthus niruri),Ghritkumari (Aloe vera),Kakmachi (Solanum nigrum)"
+55,Low blood pressure,"Stress Guard, Ashwagandha Churna, Ashwagandharishta      ","Beetroot, Indian Spikenard,Nutrients,Salt,Epsom Salt Bath"
+56,Measles,"Prawal pishti , Swarnamakshik Bhasma, Kasturi Bhairav Ras   ",At the first stage clothe the patients in warm garments. Hot water and other liquids should be given to encourage the rash to appear. A powder of equal parts of tamarind seeds and turmeric may be given thrice daily
+57,Migraine (severe Headache with nausea),"Sadbindu Taila(oil), Baidyanath Balm , Stress Guard  ","Grapes,Vegetable Juices         a) Carrot with spinach         b) Carrot with beet"
+58,Miscarriage & Abortion,"Lauh Bhasma ,Garbhpal Ras, Phalkalyan ghrita     ","Shatawer,Bidarikand,Barahikand(These all prevent abortion),Durba ras,Keshar,Hirabol,Vasak, Haldi and Fitkari(These all prevent excess bleeding)"
+59,Myopia,"Honey ,Saptamrita lauh, Mahatriphala ghrita   ","Punaranava ,Jyotishmoti, Triphala"
+60,None,Nil,Nil
+61,Obesity,"Ezi Slim, Medohar Vidangadi Lauh Capsule , Punarnavadi Guggulu        ","Guggulu (Commiphora mukul), Punarnava (Boerhaavia diffusa)"
+62,Oedema,Punarnavaristha  ,"Punarnava (Borhaavia diffusa), Hasti Sundi (Heliotropium indicum)"
+63,Palpitation,"Stress Guard ,Ashwagandharishta , Kesari Kalp , Brahmi Bati  ","Grapes,Ashwagandha,Satabari,Brahmi"
+64,Piles," Pirrhoids Tablets ,Abhyaristha, Arshoghani Bati ","Haritaki (Terminalia chebula), Jimikand (Amorphophallus campanulatus)"
+65,Premenstrual Tension,"Sundari kalp Forte, Rajahpravartini Bati, Kumariasava, Stress Guard ","Chitrak mool (Plumbago zeylanica),Nirgundi (Vitex negundo)"
+66,Prostrate Disorders,"Prostaid, Shilajeet tablets, Chandraprabha Bati, Gokshuradi Guggulu   ","Pumpkin Seeds,Vegetable juices, Zinc (Yasad Bhasma)"
+67,Psoriasis (scaly Disorders of the skin)," Neem Guard, Liverol Strong , Neem ka Tail (Oil), Chalmungra Oil (Tubrak)","Avocado Oil, Cashew nut oil , Buttermilk, Vitamin E"
+68,Pyorrhoea,"Dant Manjan Lal,Lavang Tel, Irimedadi Taila  ","Guava Leaves, Lemon & Lime, Spinach juice, Wheat"
+69,Sciatica,"Sinhanand Guggul, Kaishore Guggul, Rhuma oil, Rhuma Gel ","Lashuna(Allium sativum) , Guggulu(Commiphora mukul), Giloy(Tinospora Cordifolia, Vatsanav(Aconitum ferox)"
+70,Sexual Impotency,"Vita-Ex (Gold) Plus, Musli Pak , Chandraprabha Bati  ","Garlic,Onion,Asparagus,Drumstick,Ginger,Raisins"
+71,Sinusitis," Sadbindu Taila, Godanti Bhasma, Kapha Tea   ","Tulsi (ocimum santum),Kantakari(solanum xanthocarpum),Vasaka(Adhatoda vasica)"
+72,Sore throat,Khadiradi Bati ,"Mango Bark,Cinnamon,Henna,Holy basil,Kantakari,Tamarind"
+73,Stomach Ulcer," Moti pisti, Ayucid, Avipatrikar Churna   ",NIL
+74,Syphilis,"Ameer Ras , Kaishore guggulu ",NIL
+75,Tonsillitis(Inflammation of the Tonsils),"Kasamrit Herbal, Khadiradi Bati ","Lime,Milk,Holy Basil,Fenugreek Seeds"
+76,Underweight (weight less than normal),"Spirulina Plus , Ashwagandha Churna, Livgood Capsule  ","Musk - Melon,Mango ,Milk,Figs,Raisins, Good nutrient diet"
+77,Vertigo,"Sarivadi Bati, Prawal Pisti       ","Giloy (Tinospora cordifolia),Pitpapda (Fumaria Officinalis),Vacha (Acorus calamus),Yavasa(Alhagi pseudalbagi), Sariva(Hemidesmus indicus)"
+78,Wart (superficial growths on the skin)," Raktasodhak Bati, Surakta Syrup, Neem Guard  ","Castor oil,Potato, Onion, Marigold,Cashew nut Oil"
+79,Whooping Cough,"Vasavaleha, Dr. Honey    ",NIL

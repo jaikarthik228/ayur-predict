@@ -1,0 +1,512 @@
+install.packages("PlayerRatings")
+install.packages("yorkr")
+install.packages("cricketr")
+install.packages("cricketr")
+install.packages("cricketr!")
+install.packages("cricketr")
+install.packages("cricketr")
+install.packages("RSQLite")
+mysqlconnection = dbConnect(MySQL(), user = 'User', password = '', dbname = 'soccer',
+host = 'localhost')
+load(RSQLite)
+load("RSQLite")
+load("RSQLite")
+install.packages("RSQLite")
+load("RSQLite")
+mysqlconnection = dbConnect(MySQL(), user = 'User', password = '', dbname = 'soccer',
+host = 'localhost')
+install.packages("cricketr")
+load("cricketr")
+load(cricketr)
+install.packages("cricketr")
+library("cricketr")
+dhoni<-getPlayerData(28081)
+dhoni<-getPlayerData(28081)
+dhoni<-getPlayerData(28081,type="fielding")
+dhoni<-getPlayerData(28081,type="batting")
+Kohli<-getPlayerData(253802,file = "Kohli.csv")
+library(RSQLite)
+con = dbConnect(drv="SQLite", dbname="soccer.sqlite")
+con<-dbConnect(drv="SQLite", dbname="soccer.sqlite")
+con<-dbConnect(drv="", dbname="soccer.sqlite")
+con<-dbConnect(dbname="soccer.sqlite")
+help("dbConnect,SQLiteConnection-method")
+con<-dbConnect(drv="", dbname="F:/soccer.sqlite")
+con<-dbConnect(drv="", dbname="F:\soccer.sqlite")
+library(DBI)
+con<-dbConnect(RSQLite::SQLite(), dbname="soccer.sqlite")
+alltables<-dbListTables(con)
+alltables<-dbListTables(con)
+con<-dbConnect(RSQLite::SQLite(), dbname="F:/soccer.sqlite")
+alltables<-dbListTables(con)
+con<-dbConnect(RSQLite::SQLite(), dbname="F:\soccer.sqlite")
+con<-dbConnect(RSQLite::SQLite(), dbname="soccer.sqlite")
+alltables<-dbListTables(con)
+con<-dbConnect(drv=RSQLite::SQLite(), dbname="soccer.sqlite")
+alltables<-dbListTables(con)
+View(alltables)
+con<-dbConnect(drv=RSQLite::SQLite(), dbname="F:/soccer.sqlite")
+alltables<-dbListTables(con)
+View(alltables)
+p1<-dbGetQuery(con,'select * from Player')
+p1
+View(p1)
+maxweight<-max(p1.weight)
+maxweight<-max(p1$weight)
+maxweight
+maxweight<-p1$player_name(max(p1$weight))
+maxweight<-p1$player_name where max(p1$weight))
+maxweight<-p1$player_name which max(p1$weight))
+maxweight<-which.max(p1$weight)
+maxweight
+maxweight$player_name
+p1$player_name which.max(p1$weight)
+p1$player_name[which.max(p1$weight)]
+p1$player_name[which.max(p1$height)]
+p1$player_name[which(p1$height>190)]
+p2<-p1$player_name[which(p1$height>190)]
+View(p2)
+View(p2)
+p2<-p1$player_name[which(p1$height>190)]
+View(p2)
+dummy<-p1$player_name[which(p1$height>190)]
+View(dummy)
+dummy<-p1$[which(p1$height>190)]
+dummy<-p[which(p1$height>190)]
+dummy<-p1[which(p1$height>190)]
+dummy<-p1$height>190
+View(dummy)
+dummy<-(p1$height>190)
+View(dummy)
+dummy<-p1[which(p1$height>190),]
+dummy<-p1[which(p1$height>190),3]
+dummy<-p1[which(p1$height>190),]
+shiny::runApp()
+dummy<-p1[which(p1$height>190),]
+setwd("F:/FYP")
+data<-read.csv("DSdtree.csv")
+View(data)
+training_data=data
+testing_data=data
+library(randomForest)
+data<-read.csv("DS1.csv")
+View(data)
+View(data)
+training_data=data
+testing_data=data
+data<-read.csv("10yesornodisease.csv")
+data<-read.csv("10yesornodisease.csv")
+training_data=data
+testing_data=data
+View(data)
+rfmodel=randomForest(Disease~Blackheads+Pimples+Seabaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea,data=training_data,ntree=500,mtry=15,importance=TRUE)
+rfmodel=randomForest(Disease~Blackheads+Pimples+Seabaceous cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea,data=training_data,ntree=500,mtry=15,importance=TRUE)
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea,data=training_data,ntree=500,mtry=15,importance=TRUE)
+rfmodel
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=5000,mtry=100,importance=TRUE)
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=5000,mtry=50,importance=TRUE)
+rfmodel
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+rfmodel
+testing_data.$predict.rf=predict(rfmodel,testing_data,type="response")
+testing_data$predict.rf=predict(rfmodel,testing_data,type="response")
+table(testing_data$Disease,testing_data$predict.rf)
+prop.table(table(testing_data$Disease,testing_data$predict.rf),1)
+prop.table(table(testing_data$Disease,testing_data$predict.rf),1)
+summary(rfmodel)
+rfmodel
+testing_data.$predict.rf
+rfmodel
+rfmodel=randomForest(Disease~.,data = training_data,ntree=500,mtry=15,importance="TRUE")
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=5000,mtry=50,importance=TRUE)
+class(training_data$Disease)
+confusionmatrix
+confusionMatrix
+install.packages("e1071")
+install.packages("caret")
+library(caret)
+library(e1071)
+confusionMatrix(data=testing_data$predict.rf,reference =testing_data$Disease,positive="yes")
+testing_data=data(7,)
+testing_data=data[7,]
+View(testing_data)
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+testing_data.$predict.rf=predict(rfmodel,testing_data,type="response")
+testing_data$predict.rf=predict(rfmodel,testing_data,type="response")
+table(testing_data$Disease,testing_data$predict.rf)
+confusionMatrix(data=testing_data$predict.rf,reference =testing_data$Disease,positive="yes")
+testing_data=data[7,[2:70]]
+testing_data=data[7,(2:70)]
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+testing_data$predict.rf=predict(rfmodel,testing_data,type="response")
+testing_data=data[7,(2:72)]
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+testing_data$predict.rf=predict(rfmodel,testing_data,type="response")
+table(testing_data$Disease,testing_data$predict.rf)
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+testing_data=data[7,(2:72)]
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+testing_data$predict.rf=predict(rfmodel,testing_data,type="response")
+table(training_data$Disease,testing_data$predict.rf)
+testing_data$predict.rf=predict(rfmodel,testing_data,type="response")
+confusionMatrix(data=testing_data$predict.rf,reference =testing_data$Disease,positive="yes")
+confusionMatrix(data=testing_data$predict.rf,reference =training_data$Disease,positive="yes")
+na.omit(training_data)
+na.omit(testing_data)
+testing_data$predict.rf=predict(rfmodel,testing_data,type="response")
+testing_data$predict.rf1=predict(rfmodel,testing_data,type="response")
+testing_data
+testing_data=data[3,(2:72)]
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+testing_data$predict.rf2=predict(rfmodel,testing_data,type="response")
+testing_data
+predict.rf2=predict(rfmodel,testing_data,type="response")
+predict.rf2
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+data=read.csv("DS1.csv")
+data=training_data
+testing_data=data[35,(1:351)]
+testing_data=data[35,c(1:351)]
+View(data)
+data=read.csv("DS1.csv")
+data=training_data
+testing_data=data[35,(1:351)]
+data=read.csv("DS1.csv")
+training_data=data
+testing_data=data[35,(1:351)]
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,testing_data,type="response")
+predict.rf
+predict.rf=predict(rfmodel,testing_data)
+predict.rf
+summary(predict.rf)
+utils::View(predict.rf)
+write.csv()
+?write.csv()
+library(sqldf)
+install.packages(sqldf)
+install.packages("sqldf")
+library(sqldf)
+sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'"),"SELECT * FROM testing_data"))
+SQLite()
+mysql
+install.packages("mysql")
+View(testing_data)
+testing_data
+sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'"),"SELECT * FROM testing_data"))
+sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'")))
+sqldf(c(paste("UPDATE testing_data SET Weakness='Yes'")))
+sqldf(c(paste("UPDATE testing_data SET Weakness='Yes'")))
+sqldf(c(paste("UPDATE testing_data SET Weakness='Yes'")))
+data=read.csv("DS1.csv")
+training_data=data
+testing_data=data[35,(1:351)]
+sqldf(c(paste("UPDATE testing_data SET Weakness='Yes'")))
+data=read.csv("DS1.csv")
+training_data=data
+testing_data=data[35,(1:350)]
+testing_data
+sqldf(c(paste("UPDATE testing_data SET Weakness='Yes'")))
+data=read.csv("DS1.csv")
+training_data=data
+testing_data=data[35,(1:350)]
+testing_data
+sqldf(c(paste("UPDATE testing_data SET Weakness='Yes'")))
+data=read.csv("DS1.csv")
+training_data=data
+testing_data=data[35,(1:350)]
+sqldf(c(paste("UPDATE testing_data SET Weakness='Yes'")))
+data=read.csv("DS1.csv")
+training_data=data
+testing_data=data[35,(1:347)]
+testing_data=data[35,(1:350)]
+testing_data=data[35,(1:347)]
+testing_data
+sqldf(c(paste("UPDATE testing_data SET Weakness='Yes'")))
+sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'"),"SELECT * FROM testing_data"))
+as.data.frame(testing_data)
+df<-as.data.frame(testing_data)
+View(df)
+testing_data
+sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+View(df1)
+levels()
+levels(testing_data)
+levels(training_data)
+predict.rf=predict(rfmodel,rf1,type="response")
+predict.rf=predict(rfmodel,df1,type="response")
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,df1,type="response")
+predict.rf
+df1
+data<-read.csv("10yesornodisease.csv")
+training_data=data
+testing_data=read.csv("10dummy.csv")
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'"),"SELECT * FROM testing_data"))
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,df,type="response")
+df<-testing_data
+predict.rf=predict(rfmodel,df,type="response")
+predict.rf=predict(rfmodel,testing_data,type="response")
+predict.rf=predict(rfmodel,testing_data
+)
+training_data
+str(training_data)
+str(testing_data)
+testing_data
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'"),"SELECT * FROM testing_data"))
+testing_data<-df
+testing_data
+str(testing_data)
+testing_data$Weakness<-as.factor(testing_data$Weakness)
+str(testing_data)
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,testing_data)
+testing_data
+str(testing_data)
+str(training_data)
+testing_data
+View(testing_data)
+predict.rf=predict(rfmodel,testing_data)
+levels(testing_data)<-levels(training_data)
+testing_data
+str(testing_data)
+str(training_data)
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,testing_data)
+levels(testing_data$Blackheads)
+levels(training_data$Blackheads)
+levels(testing_data)<-levels(training_data)
+levels(training_data$Blackheads)
+levels(testing_data$Blackheads)
+str(testing_data)
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,testing_data)
+testing_data=data[4,(2:71)]
+str(testing_data)
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,testing_data)
+testing_data
+testing_data=data[4,(2:72)]
+testing_data
+predict.rf=predict(rfmodel,testing_data)
+predict.rf
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'"),"SELECT * FROM testing_data"))
+df
+str(df)
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,testing_data)
+predict.rf
+df<-sqldf(c(paste("UPDATE testing_data","SET Bad.Breath='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET Bad Breath='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET Bad.Breath='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET influenza='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET influenza ='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET (Bad.Breath) ='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET (Bad.Breath='Yes')"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET Bad.Breath='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET Bad Breath='Yes'"),"SELECT * FROM testing_data"))
+df
+str(df)
+testing_data
+df1<-as.data.frame(df)
+str(df)
+str(df1)
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,df1)
+predict.rf
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+df1
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+df1
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',Chest.pain='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',Chest_pain='Yes'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',[Chest.pain]='Yes'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+df1
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,df1)
+predict.rf
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',[Chest.pain]='Yes',syphilis='Yes',eczema='Yes'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+df1
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,df1)
+predict.rf
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',[Chest.pain]='Yes',syphilis='Yes',eczema='Yes',Sleepnessness='No'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',[Chest.pain]='Yes',syphilis='Yes',eczema='Yes',Sleeplessness='No'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+df1
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,df1)
+predict.rf
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',[Chest.pain]='Yes',syphilis='Yes',eczema='Yes',Sleeplessness='No',[Ocaasional.diarrhea]='No'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',[Chest.pain]='Yes',syphilis='Yes',eczema='Yes',Sleeplessness='No',[Ocaasional.diarrhea]='No',[Inability.to.relax]='No'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+df1
+str(df1)
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,df1)
+predict.rf
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',[Chest.pain]='Yes',syphilis='Yes',eczema='Yes',Sleeplessness='No',[Ocaasional.diarrhea]='No',[Inability.to.relax]='No',[Heart.Palpitation]='No',Belching='No'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+df1
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,df1)
+predict.rf
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',[Chest.pain]='Yes',syphilis='Yes',eczema='Yes',Sleeplessness='No',[Ocaasional.diarrhea]='No',[Inability.to.relax]='No',[Heart.Palpitation]='No',Belching='No',Nausea='No',[Cry.often]='No',Nausea='No',Petulancy='No'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+df1
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+predict.rf=predict(rfmodel,df1)
+predict.rf
+summary(predict.rf)
+accuracy(predict.rf)
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE,do.trace=T)
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE,proximity=TRUE)
+rfmodel
+levels(rfmodel)
+str(rfmodel)
+rfmodel$predicted
+sqrt(sum((rfmodel$predicted - training_data$Disease)^2) / nrow(training_data))
+t<-table(predict.rf,df1)
+rfmodel=randomForest(Disease~.,data=training_data,ntree=500,mtry=15,importance=TRUE)
+rfmodel
+?randomForest
+confusionMatrix(data=testing_data$predict.rf,reference =df1$Disease,positive="yes")
+confusionMatrix(data=predict.rf,reference =df1$Disease,positive="yes")
+confusionMatrix(data=predict.rf,reference =training_data$Disease,positive="yes")
+confusionMatrix(data=testing_data$predict.rf,reference =training_data$Disease,positive="yes")
+savehistory("F:/FYP/.Rhistory1")
+df<-sqldf(c(paste("UPDATE testing_data","SET",symp1,"='Yes'")))
+library(sqldf)
+df<-sqldf(c(paste("UPDATE testing_data","SET",symp1,"='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET [symp1]='Yes'")))
+df
+View(df1)
+df<-sqldf(c(paste("UPDATE testing_data","SET Weakness='Yes',influenza='Yes',[Chest.pain]='Yes',syphilis='Yes',eczema='Yes',Sleeplessness='No',[Ocaasional.diarrhea]='No',[Inability.to.relax]='No',[Heart.Palpitation]='No',Belching='No',Nausea='No',[Cry.often]='No',Nausea='No',Petulancy='No'"),"SELECT * FROM testing_data"))
+df<-sqldf(c(paste("UPDATE testing_data","SET symp1='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET testing_data$symp1='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET testing_data$[symp1]='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET (testing_data$symp1)='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET [testing_data$symp1]='Yes'")))
+str(symp1)
+symp1<-as.factor(symp1)
+str(symp1)
+str(testing_data)
+df<-sqldf(c(paste("UPDATE testing_data","SET symp1='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET (symp1)='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET var(symp1)='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET var[symp1]='Yes'")))
+symp1
+variable.names(symp1)
+variable.names(testing_data)
+symp1
+df<-sqldf(c(paste("UPDATE testing_data","SET "symp1"='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET 'symp1'='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET as.value(symp1)='Yes'")))
+get("symp1")
+df<-sqldf(c(paste("UPDATE testing_data","SET get("symp1"")='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET "get("symp1"")"='Yes'")))
+df<-sqldf(c(paste("UPDATE testing_data","SET get(symp1)='Yes'")))
+get(symp1)
+df<-sqldf(c(paste("UPDATE testing_data","SET [get("symp1")='Yes']")))
+if(symp1="fever"
+if(symp1="fever")
+if(symp1=="fever")
+{}
+if(symp1=="fever")
+{df<-sqldf(c(paste("UPDATE testing_data","SET fever='Yes']")))}
+{df<-sqldf(c(paste("UPDATE testing_data","SET fever='Yes'")))}
+symp1
+df
+df1<-as.data.frame(df)
+df1
+if(symp1="fever")
+if(symp1=="fever")
+df<-sqldf(c(paste("UPDATE testing_data","SET fever='Yes'"),"SELECT * FROM testing_data"))
+df1<-as.data.frame(df)
+df1
+str(df1)
+df<-sqldf(c(paste("UPDATE testing_data","SET fever='Yes'"),"SELECT * FROM testing_data"))
+symp1
+symp2<-fever
+symp2<-"fever"
+symp2
+symp1<-"fever"
+symp3<-symp1+symp2
+symp3<-cat(symp1,symp2)
+symp3<-cat(symp1,"",symp2)
+symp3<-cat(symp1,"",)
+symp3<-cat(symp1,""",)
+}
+""
+symp3<-cat(symp1,"""",symp2)
+symp3<-cat(symp1,symp2)
+shQuote(symp3)
+shQuote("symp3")
+symp3<-cat(symp1,symp2)
+paste0(""",symp3,""")
+paste0(""","symp3",""")
+symp3
+symp2
+symp1
+symp3<-cat(symp1,symp2)
+symp3
+symp3=cat(symp1,symp2)
+symp3
+?cat
+symp3=cat(symp1,symp2,sep="")
+symp3=cat(symp1,symp2,sep=" "" ")
+symp3=cat(symp1,symp2,sep="""")
+symp3=cat(symp1,symp2,sep="'')
+?
+}
+""
+"
+symp3=cat(symp1,symp2,sep="''")
+symp3
+symp3==cat(symp1,symp2,sep="''")
+symp3
+symp3==cat(symp1,symp2,sep=" " " )
+""
+symp3==cat(symp1,symp2,sep=" " " ")
+symp3=cat(symp1,symp2,sep="")
+symp3=cat(symp1,symp2,sep="")
+symp3=cat(symp1,symp2,sep=""")
+""
+symp3=cat(symp1,symp2,sep="""")
+symp3=cat(symp1,symp2,sep="/""/")
+symp3=cat(symp1,symp2,sep="/" "/")
+str(symp1)
+str(symp2)
+symp3=cat(symp1,symp2,sep="''")
+str(symp3)
+symp3<-cat(symp1,symp2,sep="/" "/")
+symp3<-cat(symp1,symp2,sep="''")
+str(symp3)
+rfmodel
+predict.rf2
+predict.rf1
+predict.rf
+?predict
+shiny::runApp()
+runApp('F:/FYP/quiz')
+runApp('F:/FYP/quiz')
+runApp('F:/FYP/quiz')
+symp1
+symp2
+symp3
+symp4
+output$symp1
+input$A
+A
+?options
+shiny::runApp('F:/FYP/quiz')
+shiny::runApp('F:/FYP/quiz')
+runApp('F:/FYP/quiz')

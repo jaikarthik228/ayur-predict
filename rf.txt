@@ -1,0 +1,8 @@
+library(e1071)
+library(caret)
+data<-read.csv("10yesornodisease.csv")
+training_data=data
+testing_data=data[3,(2:72)]
+rfmodel=randomForest(Disease~Blackheads+Pimples+Sebaceous.cysts+Scars+Weakness+Dizziness+Fatigue+Quick.exhaustion+Premature.Wrinkles+Failing.Memory+Shortness.of.Breadth+Palpitation+Headache+Slow.healing.of.wounds+Insomnia+Refusing.to.eat+Headache.1+Inability.to.relax+Sleeplessness+Heart.Palpitation+Belching+Nausea+Petulancy+Ocaasional.diarrhea+Emotional.Instability+Cry.often+Respiratory.problems+Inadequate.weight+Vomiting+Coughing+Heart.burn+Stomach.ache+Chest.pain+Gas.formation+Avoiding.food+Difficulty.performing.tasks+Getting.lost.on.familiar.routes+Language.problems+flat.mood+Misplacing.items+Personality.changes+loss.of.social.skills+Apathy+Gasping.for.breath+Difficult.breathing.out+nasal.congestion+sneezing+Severe.constant.pain+Difficulty.in.bending.forward+aggravation.due.to.jerk+incapacitation+Sore.and.sensitive+Painful.red.nodule+Irritation.of.skin+Itching.of.skin+fever+Pus.discharge+acute.fever+myxodema+syphilis+influenza+anaemia+nervous.shock+hereditary.baldness+eczema+psoriasis.of.scalp+Bad.Breath+Bleeding.while.brushing+Blood.in.saliva+Bleeding.while.spitting+Bleeding.while.eating,data=training_data,ntree=500,mtry=15,importance=TRUE)
+testing_data$predict.rf2=predict(rfmodel,testing_data,type="response")
+testing_data
